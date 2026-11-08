@@ -1,10 +1,10 @@
 {
-  "title": "Some lovely pictures",
-  "description": "A local album scanned from this directory.",
-  "date": "2025-08-01",
+  "title": "我喜欢的游戏图片",
+  "description": "这里存了我往年喜欢的游戏图片",
+  "date": "2026-11-08",
   "location": "Local archive",
   "tags": ["local", "webp", "example"],
   "layout": "masonry",
-  "columns": 3,
+  "columns": 4,
   "hidden": false
 }

@@ -1,26 +1,25 @@
-# About Shirone
+# 关于我
 
-Welcome to the demo site of **Shirone** (白音) — an expressive, anime-inspired blog theme built on the **Material 3 Expressive (M3E)** design system.
+👋 你好，欢迎阅读，这里是 HoshinoHB 的个人博客站点
 
-::github{repo="LyraVoid/Shirone"}
+- 一位游离二次元和FPS的国内平台视频创作者，网络信息技术爱好者。
 
-## ✦ Design & Philosophy
+- 一位技术向星野厨，游戏UP主，基本不发表评论
 
-Shirone aims to combine the warmth of expressive anime aesthetics with the rigor of modern web engineering:
+## 兴趣
 
-- **Dynamic Chromatic Spell**: Full dynamic HCT palette generation responding seamlessly to light/dark modes and user preferences with zero layout shifts.
-- **Seamless Shell Navigation**: Persistent application shell driven by Swup for continuous music playback, smooth page transitions, and preserved state.
-- **Rich Story Grimoire**: Markdown and MDX authoring with KaTeX math, Mermaid diagrams, interactive admonitions, expressive code blocks, and adaptive image galleries.
-- **Zero Extra Burden**: Optional integrations (comments, analytics, music widgets) load dynamically on demand — zero DOM footprint and zero bundle overhead when disabled.
+- 🎮 游戏：蔚蓝档案、三角洲行动、Minecraft
 
-## ✦ Tech Stack
+- 💻 折腾：博客、域名、Termux、开源项目
 
-- **Framework**: [Astro 7](https://astro.build/) & [Svelte 5](https://svelte.dev/) (Runes-driven islands)
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & [Stylus](https://stylus-lang.com/)
-- **Design Standard**: [Material 3 Expressive](https://m3.material.io/)
-- **Typography**: Outfit & Yozai (悠哉圆体) with automated build-time subsetting
-- **Search Engine**: [Pagefind](https://pagefind.app/) offline full-text search
+- ✍️ 喜好 产出技术与娱乐向视频
 
-## ✦ Credits
+## 设备
 
-- **Font**: [Yozai Font (悠哉字体)](https://github.com/lxgw/yozai-font) by [lxgw](https://github.com/lxgw)
+> 手机：OPPO A58
+
+## 联系方式
+
+[我的聚合账号](https://vlink.cc/HoshinoHB)
+
+邮箱：mchb9742@outlook.com

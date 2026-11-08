@@ -6,82 +6,57 @@ import type { TimelineItem } from "@/types/timelineConfig";
 
 export const timelineData: TimelineItem[] = [
 	{
-		title: "Shirone Theme M3E Major Architecture Upgrade",
-		date: "2026.08",
-		category: "milestone",
-		subtitle: "Open Source Project",
-		description:
-			"Refactored the entire blog theme into a Material 3 Expressive atomic component system with token-driven styling, complete keyboard navigation, and full accessibility compliance.",
-		highlights: [
-			"Implemented dynamic HCT palette calculation and state layer tokens",
-			"Added multi-page capabilities: Timeline, Skills, Projects, and Protected Albums",
-			"Zero-error strict type-checking and automated visual regression locks",
-		],
-		tags: ["Astro", "Svelte 5", "M3E", "Tailwind 4"],
-		links: [
-			{
-				label: "GitHub Repository",
-				url: "https://github.com/LyraVoid/Shirone",
-				icon: "fa7-brands:github",
-			},
-		],
-		icon: "material-symbols:rocket-launch-rounded",
-		featured: true,
-	},
-	{
-		title: "Senior Frontend Engineer",
-		date: "2025.03 – Present",
-		category: "career",
-		subtitle: "Technology Lab",
-		location: "Tokyo, Japan",
-		description:
-			"Leading frontend architecture, web performance optimization, and interactive design system development for modern web platforms.",
-		highlights: [
-			"Spearheaded design system unification across web products",
-			"Reduced core bundle load times by 40% using modern SSR and asset pipelines",
-		],
-		tags: ["TypeScript", "Architecture", "Performance", "Design System"],
-		icon: "material-symbols:work-rounded",
-		featured: true,
-	},
-	{
-		title: "Full-Stack Web Application Launch",
-		date: "2024.11",
-		category: "project",
-		subtitle: "Independent Creation",
-		description:
-			"Designed and built an end-to-end creative workflow application with real-time collaboration and cloud synchronization.",
-		highlights: [
-			"Designed intuitive fluid canvas interface with low-latency interaction",
-			"Built serverless backend APIs with edge caching and relational persistence",
-		],
-		tags: ["Svelte", "Node.js", "PostgreSQL", "Cloudflare"],
-		icon: "material-symbols:deployed-code-outline-rounded",
-	},
-	{
-		title: "Computer Science & Engineering Degree",
-		date: "2020.09 – 2024.06",
-		category: "education",
-		subtitle: "University of Technology",
-		location: "Hangzhou, China",
-		description:
-			"Focused on computer systems, software engineering, human-computer interaction, and distributed architectures.",
-		highlights: [
-			"Graduated with honors and outstanding graduate thesis award",
-			"Led university open source student community and hackathons",
-		],
-		tags: ["Computer Science", "Algorithms", "Software Engineering"],
-		icon: "material-symbols:school-rounded",
-	},
-	{
-		title: "Started Personal Blog & Tech Notes",
-		date: "2022.04",
+		title: "确诊中度抑郁",
+		date: "2026.10 - 至今",
 		category: "life",
-		subtitle: "First Step into Tech Writing",
+		subtitle: "确诊了中度抑郁和中度焦虑",
 		description:
-			"Published my first article online and began documenting frontend exploration, creative coding, and personal reflections.",
-		tags: ["Blogging", "Writing", "Open Web"],
-		icon: "material-symbols:edit-note-rounded",
+			"在我的逼迫下，我母亲终于带我去医院检查出心理问题",
+		tags: ["医院", "抑郁症", "焦虑症", "心理疾病"],
+		icon: "material-symbols:local-hospital-sharp",
+		featured: true,
+	},
+	{
+		title: "建站",
+		date: "2026.07 – 至今",
+		category: "project",
+		subtitle: "开始搭建博客网站，正式快开始编写博客",
+		description:
+			"自学编程搭配AI开始做项目",
+                tags: ["GitHub", "Cloudflare", "博客", "建站"],
+        },
+	{
+		title: "成为视频创作者",
+		date: "2023.7 - 至今",
+		category: "video",
+		subtitle: "开始做视频",
+                description: 
+                        "在抖音B站快手发布自制视频",
+		tags: ["哔哩哔哩", "抖音", "快手"],
+		icon: "material-symbols:video-library-rounded",
+	},
+	{
+		title: "上中学",
+		date: "2024.09 - 2026.03",
+		category: "education",
+		subtitle: "中学即将成为当年",
+		location: "中国，江西",
+		description:
+			"九年级快毕业了",
+		tags: ["教育", "中学"],
+		icon: "material-symbols:school-rounded",
+                featured: true,
+	},
+	{
+		title: "结束小学阶段",
+		date: "2014.03 - 2024.07",
+		category: "education",
+		subtitle: "再见文笔峰和崇文",
+                location: "中国，江西",
+		description:
+			"成功毕业小学，正式步入中学阶段",
+		tags: ["教育", "小学", "毕业"],
+		icon: "material-symbols:school-rounded",
 	},
 ];
 
