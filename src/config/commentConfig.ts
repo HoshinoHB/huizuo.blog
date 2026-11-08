@@ -37,9 +37,9 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  */
 export const commentConfig: CommentConfig = withUserConfig("comment", {
 	/** 全局评论总开关：false 时完全不加载评论脚本与 DOM */
-	enable: false,
+	enable: true,
 	/** 评论提供商类型："none" | "twikoo" | "giscus" | "waline" */
-	provider: "none",
+	provider: "giscus",
 	/** 是否开启视口懒加载：滚动进入视口才动态加载评论组件（推荐 true） */
 	lazy: true,
 	/** Twikoo 专有配置 */
@@ -54,23 +54,27 @@ export const commentConfig: CommentConfig = withUserConfig("comment", {
 		placeholder: "Share your thoughts...",
 	},
 	/** Giscus 专有配置（基于 GitHub Discussions，评论数据存储在公开仓库中） */
-	giscus: {
-        <script src="https://giscus.app/client.js"
-        data-repo="HoshinoHB/huizuo.blog"
-        data-repo-id="R_kgDOVlgq_A"
-        data-category="General"
-        data-category-id="DIC_kwDOVlgq_M4DKi6t"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="top"
-        data-theme="catppuccin_mocha"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+giscus: {
+    repo: "HoshinoHB/huizuo.blog",
+    repoId: "R_kgDOVlgq_A",
+    category: "General",
+    categoryId: "DIC_kwDOVlgq_M4DKi6t",
+
+    mapping: "pathname",
+    strict: false,
+    reactionsEnabled: true,
+    emitMetadata: true,
+    inputPosition: "top",
+
+    theme: {
+        light: "catppuccin_mocha",
+        dark: "catppuccin_mocha",
+    },
+
+    lang: "zh-CN",
+    loading: "lazy",
+    scriptUrl: "https://giscus.app/client.js",
+},
 	/** Waline 专有配置：https://waline.js.org/ */
 	waline: {
 		/** 服务端地址（必填）；留空时不渲染评论区 */
