@@ -55,31 +55,22 @@ export const commentConfig: CommentConfig = withUserConfig("comment", {
 	},
 	/** Giscus 专有配置（基于 GitHub Discussions，评论数据存储在公开仓库中） */
 	giscus: {
-		/** 公开仓库，格式 "owner/repo"（必填） */
-		repo: "",
-		/** 仓库 ID，从 giscus.app 配置生成器获取（必填） */
-		repoId: "",
-		/** Discussion 分类名，如 "Announcements"；留空表示不限制分类搜索范围 */
-		category: "Announcements",
-		/** 分类 ID，从 giscus.app 配置生成器获取（必填） */
-		categoryId: "",
-		/** 页面 ↔ Discussion 映射：pathname（默认）/ url / title / og:title / specific / number */
-		mapping: "pathname",
-		/** 严格标题匹配（SHA-1 校验），避免 GitHub 模糊搜索误配相似标题 */
-		strict: false,
-		/** 是否显示主贴表情反应 */
-		reactionsEnabled: true,
-		/** 是否向父页面周期性发送 Discussion 元数据（供脚本消费） */
-		emitMetadata: false,
-		/** 评论输入框位置：bottom（默认，评论框在列表下方）| top（评论框在列表上方） */
-		inputPosition: "bottom",
-		/** 明暗两套 giscus 主题（giscus 主题键或自定义主题 CSS URL），跟随站点明暗切换 */
-		theme: { light: "light", dark: "dark" },
-		/** 评论语言："auto"（跟随站点）| giscus 语言码（如 "zh-CN"、"en"） */
-		lang: "auto",
-		/** giscus client.js 地址；自托管 giscus 时替换为自有地址 */
-		scriptUrl: "https://giscus.app/client.js",
-	},
+        <script src="https://giscus.app/client.js"
+        data-repo="HoshinoHB/huizuo.blog"
+        data-repo-id="R_kgDOVlgq_A"
+        data-category="General"
+        data-category-id="DIC_kwDOVlgq_M4DKi6t"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="catppuccin_mocha"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 	/** Waline 专有配置：https://waline.js.org/ */
 	waline: {
 		/** 服务端地址（必填）；留空时不渲染评论区 */
