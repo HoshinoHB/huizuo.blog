@@ -38,39 +38,51 @@ export interface CompassShelf {
 export const compassData: CompassShelf[] = [
 	{
 		key: "dev",
-		name: "Development",
+		name: "开发",
 		icon: "material-symbols:code-rounded",
-		blurb: "Sites I keep open while writing code",
+		blurb: "我开开发时常用的网站",
 		entries: [
 			{
 				label: "GitHub",
 				href: "https://github.com",
-				note: "Code hosting & collaboration",
+				note: "代码托管与协作",
 				icon: "fa7-brands:github",
 			},
 			{
 				label: "MDN",
 				href: "https://developer.mozilla.org",
-				note: "Authoritative web docs",
+				note: "权威网络文档",
 				icon: "material-symbols:menu-book-rounded",
 			},
 			{
 				label: "Stack Overflow",
 				href: "https://stackoverflow.com",
-				note: "Q&A and debugging",
+				note: "问答和调试",
 			},
+                        {
+                                label: "Clouflare",
+                                href: "https://cloudflare.com",
+                                note: "网络与云服务平台",
+                                icon: "material-symbols:cloud",
+                        },
+                        {
+                                label: "DNSHE",
+                                herf: "https://dnshe.com",
+                                note: "DNS和域名提供商",
+                        },
 		],
 	},
 	{
 		key: "design",
-		name: "Design",
+		name: "设计",
 		icon: "material-symbols:palette-outline-rounded",
-		blurb: "Colors, icons and inspiration",
+		blurb: "色彩、图标和灵感我",
 		entries: [
 			{
 				label: "Iconify",
 				href: "https://icon-sets.iconify.design",
-				note: "Searchable open-source icon sets",
+				note: "可搜索的开源图标集",
+                                icon: "material-symbols:help-clinic-outline",
 			},
 			{
 				label: "Material Symbols",
@@ -87,7 +99,7 @@ export const compassData: CompassShelf[] = [
 	},
 	{
 		key: "tools",
-		name: "Tools",
+		name: "工具",
 		icon: "material-symbols:build-outline-rounded",
 		entries: [
 			{

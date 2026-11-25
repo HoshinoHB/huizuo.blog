@@ -25,7 +25,7 @@ export const projectsData: ProjectItem[] = [
 		title: "哔哩哔哩",
 		summary: 
                         "bilibili",
-		category: "video",
+		category: "中视频发布页",
 		phase: "building",
 		technologies: ["视频", "哔哩哔哩"],
 		icon: "material-symbols:video-library-rounded",
@@ -35,13 +35,46 @@ export const projectsData: ProjectItem[] = [
 		key: "douyin",
 		title: "抖音",
 		summary:
-			"douyin",
+			"短视频发布页",
 		category: "video",
 		phase: "building",
 		technologies: ["抖音", "视频"],
 		icon: "material-symbols:video-library-rounded",
 		repository: "https://v.douyin.com/hzJCUqzF6pE/",
 	},
+        {
+                key: "fan-well",
+                title: "粉丝墙",
+                summary:
+                        "粉丝墙",
+                category: "FanWell",
+                phase: "shipped",
+                technologies: ["粉丝墙", "抖音", "B站"],
+                icon: "material-symbols:contacts-product-outline",
+                repository: "https://www.hoshinohb.cc.cd",
+        },
+        {
+                key: "femboyexam",
+                title: "男娘测试",
+                summary:
+                        "测试你的男娘属性",
+                category: "exam",
+                phase: "shipped",
+                technologies: ["男娘", "测试"],
+                icon: "material-symbols:chrome-reader-mode-sharp",
+                repository: "https://hoshinohb.github.io/femboyexam/",
+       },
+       {
+                key: "scl-90",
+                title: "SCL-90测试",
+                summary:
+                        "国际SCL－90测试",
+                category: "exam",
+                phase: "shipped",
+                technologies: ["SCL-90", "测试"],
+                icon: "material-symbols:chrome-reader-mode-sharp",
+                repository: "https://hoshinohb.github.io/SCL-90/",
+       },
 ];
 
 /** 获取所有项目数据列表 */
